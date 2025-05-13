@@ -1,0 +1,71 @@
+/* Tipografía elegante y amigable */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(145deg, #fff0f5, #ffe6eb);
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Contenedor de la carta */
+.carta {
+  background-color: #ffffffcc;
+  padding: 2.5rem;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  line-height: 1.75;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Encabezado llamativo */
+h1 {
+  color: #b8325a;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+
+/* Párrafos */
+p {
+  margin-bottom: 1.4rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+
+/* Firma */
+.firma {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #8c2c45;
+}
+
+/* Responsive: iPhone 15 Pro */
+@media (max-width: 600px) {
+  .carta {
+    padding: 1.8rem 1.4rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .firma {
+    font-size: 0.95rem;
+  }
+}
