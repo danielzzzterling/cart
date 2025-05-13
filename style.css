@@ -51,6 +51,20 @@ p {
   color: #8c2c45;
 }
 
+img {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
 /* Responsive: iPhone 15 Pro */
 @media (max-width: 600px) {
   .carta {
